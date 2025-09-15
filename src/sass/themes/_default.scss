@@ -1,0 +1,22 @@
+@use './../abstracts/variables'  as *;
+
+html * {
+    font-family: $poppìns-font;
+}
+ 
+body {
+  overflow-x: hidden;
+  background-image: url("/images/ellipse.png"), url("/images/ellipse2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 971px 263px, 1217px 540px ; // primera: posición absoluta en px, segunda: relativa al borde
+  background-color: $background-color;
+  font-size: 18px;
+  color: $gray;
+}
+
+.page {
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}   
